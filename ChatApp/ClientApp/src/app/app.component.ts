@@ -1,5 +1,5 @@
 import { Component, NgZone } from '@angular/core';
-import { Message } from '../../models/Message';
+import { Message } from '../../models/message';
 import { ChatService } from '../../services/chat.service';
 
 @Component({
