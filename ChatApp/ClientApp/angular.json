@@ -54,8 +54,8 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "ClientApp:build"
-                            // "publicHost": "signalr.local.joaquimgomez.com"
+                        "browserTarget": "ClientApp:build",
+                        "publicHost": "signalr.local.joaquimgomez.com"
                     },
                     "configurations": {
                         "production": {
